@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: hologram_mat
+  m_Shader: {fileID: 4800000, guid: f17c0da2ba60e7c4092db102b1cfcaf4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FlickerTex:
+        m_Texture: {fileID: 2800000, guid: f789a128a9068af418de1d2d14bd0ced, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 862752437669a6142a9327b27f5b95f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Contrast: 1.75
+    - _Flicker: 343.7
+    - _FlickerPos: 1.02
+    - _FlickerRepeat: 1
+    - _FlickerSpeed: 16.1
+    - _RimPower: 2.8
+    m_Colors:
+    - _GlowTint: {r: 0.47526473, g: 0.52396595, b: 0.572, a: 1}
+    - _MainTint: {r: 0.41522488, g: 0.6890586, b: 0.88235295, a: 1}
